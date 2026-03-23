@@ -1,0 +1,15 @@
+Model = "D:/Projects/ShadersTutorials/Assets/VoiceGPT/Models/Model.pth"
+Config = "D:/Projects/ShadersTutorials/Assets/VoiceGPT/Models/ModelConfig.yml"
+ASRModel = "D:/Projects/ShadersTutorials/Assets/VoiceGPT/Models/ASRModel.pth"
+ASRConfig = "D:/Projects/ShadersTutorials/Assets/VoiceGPT/Models/ASRConfig.yml"
+F0Model = "D:/Projects/ShadersTutorials/Assets/VoiceGPT/Models/F0Model.t7"
+BERTModel = "D:/Projects/ShadersTutorials/Assets/VoiceGPT/Models/BERTModel.t7"
+BERTConfig = "D:/Projects/ShadersTutorials/Assets/VoiceGPT/Models/BERTConfig.yml"
+_text = """Now I am speaking in English perfect. WHERE ARE MY EGGS!? I need more eggs!"""
+_targetVoice = "D:/Projects/ShadersTutorials/Assets/VoiceGPT/Voices/Preview Voices/Clara.wav"
+_outputPath = "D:/Projects/ShadersTutorials/Assets/VoiceGPT/Voices/Clara_Voice_0.wav"
+_eScale = 3
+_alpha = 0.3
+_beta = 0.7
+_steps = 5
+_enableEScale = False
