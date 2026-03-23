@@ -67,7 +67,7 @@ Shader "Custom/Lighting Shader"
             #pragma fragment MyFrag
             
             #define FORWARD_BASE_PASS
-            #include "PhongLight.cginc"
+            #include "MyPBRLighting.cginc"
 
             ENDHLSL
         }
@@ -99,7 +99,7 @@ Shader "Custom/Lighting Shader"
             #pragma vertex MyVert
             #pragma fragment MyFrag
 
-            #include "PhongLight.cginc"
+            #include "MyPBRLighting.cginc"
 
             ENDHLSL
         }
@@ -136,7 +136,7 @@ Shader "Custom/Lighting Shader"
             
             #define DEFERRED_PASS
 
-            #include "PhongLight.cginc"
+            #include "MyPBRLighting.cginc"
 
             ENDHLSL
         }
@@ -161,7 +161,7 @@ Shader "Custom/Lighting Shader"
 			#pragma vertex MyShadowVertexProgram
 			#pragma fragment MyShadowFragmentProgram
 
-			#include "My Shadows.cginc"
+			#include "MyShadows.cginc"
 
 			ENDHLSL
 		}

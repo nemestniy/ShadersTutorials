@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 [ExecuteInEditMode]
-public class DefferedFogEffect : MonoBehaviour
+public class DeferredFogEffect : MonoBehaviour
 {
     public Shader deferredFog;
 
